@@ -1,0 +1,7 @@
+@mixin clearfix {
+    &::after{
+        content: ""; //pseudo element will not work without content property
+        display: table;
+        clear: both;
+    }
+}
