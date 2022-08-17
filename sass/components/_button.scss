@@ -36,6 +36,16 @@
         }
     
     }
+
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+            background-color: $color-primary;
+        }
+    
+    }
     
     /* you have to specify content property even if it can be blank and also display property
         Transition property should be put in initial state not in hover or something like that
